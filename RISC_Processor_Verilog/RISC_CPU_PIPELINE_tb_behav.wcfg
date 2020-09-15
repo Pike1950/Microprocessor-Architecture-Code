@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISC_CPU_PIPELINE_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISC_CPU_PIPELINE_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="487000000fs"></ZoomStartTime>
+      <ZoomEndTime time="649300001fs"></ZoomEndTime>
+      <Cursor1Time time="110000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="105"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/PC_net" type="array">
+      <obj_property name="ElementShortName">PC_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_net[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/T0/M0/MC" type="array">
+      <obj_property name="ElementShortName">MC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MC[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/BS" type="array">
+      <obj_property name="ElementShortName">BS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/PC_1" type="array">
+      <obj_property name="ElementShortName">PC_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/ID0/PS" type="logic">
+      <obj_property name="ElementShortName">PS</obj_property>
+      <obj_property name="ObjectShortName">PS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/CU0/IM" type="array">
+      <obj_property name="ElementShortName">IM[14:0]</obj_property>
+      <obj_property name="ObjectShortName">IM[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/SH" type="array">
+      <obj_property name="ElementShortName">SH[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SH[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/MA" type="logic">
+      <obj_property name="ElementShortName">MA</obj_property>
+      <obj_property name="ObjectShortName">MA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/MB" type="logic">
+      <obj_property name="ElementShortName">MB</obj_property>
+      <obj_property name="ObjectShortName">MB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/BAnet" type="array">
+      <obj_property name="ElementShortName">BAnet[4:0]</obj_property>
+      <obj_property name="ObjectShortName">BAnet[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/AAnet" type="array">
+      <obj_property name="ElementShortName">AAnet[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AAnet[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/CU0/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/Bus_A" type="array">
+      <obj_property name="ElementShortName">Bus_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bus_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/Bus_B" type="array">
+      <obj_property name="ElementShortName">Bus_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bus_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/PC_2" type="array">
+      <obj_property name="ElementShortName">PC_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/ID0/BS" type="array">
+      <obj_property name="ElementShortName">BS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/D0/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/D0/Data_out" type="array">
+      <obj_property name="ElementShortName">Data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/ID0/MW" type="logic">
+      <obj_property name="ElementShortName">MW</obj_property>
+      <obj_property name="ObjectShortName">MW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/VxorN" type="logic">
+      <obj_property name="ElementShortName">VxorN</obj_property>
+      <obj_property name="ObjectShortName">VxorN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/C" type="logic">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/V" type="logic">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/F" type="array">
+      <obj_property name="ElementShortName">F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/BrA" type="array">
+      <obj_property name="ElementShortName">BrA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BrA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/RAA" type="array">
+      <obj_property name="ElementShortName">RAA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/ID0/FS" type="array">
+      <obj_property name="ElementShortName">FS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FS[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/E0/SH" type="array">
+      <obj_property name="ElementShortName">SH[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SH[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/RW" type="logic">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/WB0/MD0/MD_1" type="array">
+      <obj_property name="ElementShortName">MD_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MD_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/WB0/MD0/Bus_D" type="array">
+      <obj_property name="ElementShortName">Bus_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bus_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/WB0/DA" type="array">
+      <obj_property name="ElementShortName">DA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">DA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/RF0/REGISTER" type="array">
+      <obj_property name="ElementShortName">REGISTER[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">REGISTER[31:0][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Feb  5 02:43:20 2020
+# Process ID: 5572
+# Current directory: C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14852 C:\Users\PikesPlace\Google Drive\TTU\Spring 2020\Microprocessor Arch\BradW_HW2_ECE_4375\BradW_HW2_ECE_4375.xpr
+# Log file: C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/vivado.log
+# Journal file: C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source Function_Unit_TB.tcl
+run all
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+close_sim
+launch_simulation
+source Function_Unit_TB.tcl
+run all
+close_sim

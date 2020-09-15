@@ -1,0 +1,650 @@
+
+*** Running vivado
+    with args -log RISC_CPU_PIPELINE.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_CPU_PIPELINE.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source RISC_CPU_PIPELINE.tcl -notrace
+Command: synth_design -top RISC_CPU_PIPELINE -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22156 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 362.387 ; gain = 100.574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RISC_CPU_PIPELINE' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Register_file' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Register_file.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Register_file' (1#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Register_file.v:23]
+INFO: [Synth 8-6157] synthesizing module 'TOP_SECT' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/TOP_SECT.v:4]
+INFO: [Synth 8-6157] synthesizing module 'MUX_C' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_C.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_C.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_C' (2#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_C.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'TOP_SECT' (3#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/TOP_SECT.v:4]
+INFO: [Synth 8-6157] synthesizing module 'IF_SECT' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/IF_SECT.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Mem' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:3]
+	Parameter NOP bound to: 7'b0000000 
+	Parameter ADD bound to: 7'b0000010 
+	Parameter SUB bound to: 7'b0000101 
+	Parameter SLT bound to: 7'b1100101 
+	Parameter AND bound to: 7'b0001000 
+	Parameter OR bound to: 7'b0001010 
+	Parameter XOR bound to: 7'b0001100 
+	Parameter ST bound to: 7'b0000001 
+	Parameter LD bound to: 7'b0100001 
+	Parameter ADI bound to: 7'b0100010 
+	Parameter SBI bound to: 7'b0100101 
+	Parameter NOT bound to: 7'b0101110 
+	Parameter ANI bound to: 7'b0101000 
+	Parameter ORI bound to: 7'b0101010 
+	Parameter XRI bound to: 7'b0101100 
+	Parameter AIU bound to: 7'b1100010 
+	Parameter SIU bound to: 7'b1000101 
+	Parameter MOV bound to: 7'b1000000 
+	Parameter LSL bound to: 7'b0110000 
+	Parameter LSR bound to: 7'b0110001 
+	Parameter JMR bound to: 7'b1100001 
+	Parameter BZ bound to: 7'b0100000 
+	Parameter BNZ bound to: 7'b1100000 
+	Parameter JMP bound to: 7'b1000100 
+	Parameter JML bound to: 7'b0000111 
+	Parameter R0 bound to: 5'b00000 
+	Parameter R1 bound to: 5'b00001 
+	Parameter R2 bound to: 5'b00010 
+	Parameter R3 bound to: 5'b00011 
+	Parameter R4 bound to: 5'b00100 
+	Parameter R5 bound to: 5'b00101 
+	Parameter R6 bound to: 5'b00110 
+	Parameter R7 bound to: 5'b00111 
+	Parameter R8 bound to: 5'b01000 
+	Parameter R9 bound to: 5'b01001 
+	Parameter R10 bound to: 5'b01010 
+	Parameter R11 bound to: 5'b01011 
+	Parameter R12 bound to: 5'b01100 
+	Parameter R13 bound to: 5'b01101 
+	Parameter R14 bound to: 5'b01110 
+	Parameter R15 bound to: 5'b01111 
+	Parameter R16 bound to: 5'b10000 
+	Parameter R17 bound to: 5'b10001 
+	Parameter R18 bound to: 5'b10010 
+	Parameter R19 bound to: 5'b10011 
+	Parameter R20 bound to: 5'b10100 
+	Parameter R21 bound to: 5'b10101 
+	Parameter R22 bound to: 5'b10110 
+	Parameter R23 bound to: 5'b10111 
+	Parameter R24 bound to: 5'b11000 
+	Parameter R25 bound to: 5'b11001 
+	Parameter R26 bound to: 5'b11010 
+	Parameter R27 bound to: 5'b11011 
+	Parameter R28 bound to: 5'b11100 
+	Parameter R29 bound to: 5'b11101 
+	Parameter R30 bound to: 5'b11110 
+	Parameter R31 bound to: 5'b11111 
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Mem' (4#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'IF_SECT' (5#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/IF_SECT.v:4]
+INFO: [Synth 8-6157] synthesizing module 'DOF_SECT' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/DOF_SECT.v:3]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/DOF_SECT.v:20]
+INFO: [Synth 8-6157] synthesizing module 'Constant_unit' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Constant_unit.v:3]
+WARNING: [Synth 8-6104] Input port 'CONST_DATA' has an internal driver [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Constant_unit.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Constant_unit' (6#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Constant_unit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MUX_A' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_A.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_A' (7#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_A.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MUX_B' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_B.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_B' (8#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_B.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Dec' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:3]
+	Parameter NOP bound to: 7'b0000000 
+	Parameter ADD bound to: 7'b0000010 
+	Parameter SUB bound to: 7'b0000101 
+	Parameter SLT bound to: 7'b1100101 
+	Parameter AND bound to: 7'b0001000 
+	Parameter OR bound to: 7'b0001010 
+	Parameter XOR bound to: 7'b0001100 
+	Parameter ST bound to: 7'b0000001 
+	Parameter LD bound to: 7'b0100001 
+	Parameter ADI bound to: 7'b0100010 
+	Parameter SBI bound to: 7'b0100101 
+	Parameter NOT bound to: 7'b0101110 
+	Parameter ANI bound to: 7'b0101000 
+	Parameter ORI bound to: 7'b0101010 
+	Parameter XRI bound to: 7'b0101100 
+	Parameter AIU bound to: 7'b1100010 
+	Parameter SIU bound to: 7'b1000101 
+	Parameter MOV bound to: 7'b1000000 
+	Parameter LSL bound to: 7'b0110000 
+	Parameter LSR bound to: 7'b0110001 
+	Parameter JMR bound to: 7'b1100001 
+	Parameter BZ bound to: 7'b0100000 
+	Parameter BNZ bound to: 7'b1100000 
+	Parameter JMP bound to: 7'b1000100 
+	Parameter JML bound to: 7'b0000111 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Dec' (9#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:3]
+WARNING: [Synth 8-3848] Net CONST_DATA in module/entity DOF_SECT does not have driver. [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/DOF_SECT.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'DOF_SECT' (10#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/DOF_SECT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'EX_SECT' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/EX_SECT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Adder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (11#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Adder.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/ALU.v:23]
+	Parameter ADD bound to: 5'b00010 
+	Parameter SUB bound to: 5'b00101 
+	Parameter SLT bound to: 5'b00101 
+	Parameter AND bound to: 5'b01000 
+	Parameter OR bound to: 5'b01010 
+	Parameter XOR bound to: 5'b01100 
+	Parameter ADI bound to: 5'b00010 
+	Parameter SBI bound to: 5'b00101 
+	Parameter NOT bound to: 5'b01110 
+	Parameter ANI bound to: 5'b01000 
+	Parameter ORI bound to: 5'b01010 
+	Parameter XRI bound to: 5'b01100 
+	Parameter AIU bound to: 5'b00010 
+	Parameter SIU bound to: 5'b00101 
+	Parameter MOV bound to: 5'b00000 
+	Parameter LSL bound to: 5'b10000 
+	Parameter LSR bound to: 5'b10001 
+	Parameter BZ bound to: 5'b00000 
+	Parameter BNZ bound to: 5'b00000 
+	Parameter JML bound to: 5'b00111 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (12#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Data_mem' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Data_mem.v:3]
+WARNING: [Synth 8-3848] Net Data_out in module/entity Data_mem does not have driver. [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Data_mem.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Data_mem' (13#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Data_mem.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'EX_SECT' (14#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/EX_SECT.v:3]
+WARNING: [Synth 8-350] instance 'E0' of module 'EX_SECT' requires 17 connections, but only 14 given [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:69]
+INFO: [Synth 8-6157] synthesizing module 'WB_SECT' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'MUX_D' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_D.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_D.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_D' (15#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_D.v:3]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v-13.6 with 1st driver pin 'WB_SECT:/VxorN' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v:13]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v-13.6 with 2nd driver pin 'GND' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v:13]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v-13.6 is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'WB_SECT' (16#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/WB_SECT.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RISC_CPU_PIPELINE' (17#1) [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:3]
+WARNING: [Synth 8-3331] design WB_SECT has unconnected port DA[4]
+WARNING: [Synth 8-3331] design WB_SECT has unconnected port DA[3]
+WARNING: [Synth 8-3331] design WB_SECT has unconnected port DA[2]
+WARNING: [Synth 8-3331] design WB_SECT has unconnected port DA[1]
+WARNING: [Synth 8-3331] design WB_SECT has unconnected port DA[0]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[31]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[30]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[29]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[28]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[27]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[26]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[25]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[24]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[23]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[22]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[21]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[20]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[19]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[18]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[17]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[16]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[15]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[14]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[13]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[12]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[11]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[10]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[9]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[8]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[7]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[6]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[5]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[4]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[3]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[2]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[1]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_out[0]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[31]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[30]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[29]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[28]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[27]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[26]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[25]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[24]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[23]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[22]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[21]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[20]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[19]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[18]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[17]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[16]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[15]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[14]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[13]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[12]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[11]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[10]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[9]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[8]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[7]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[6]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[5]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[4]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[3]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[2]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[1]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Address[0]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[31]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[30]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[29]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[28]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[27]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[26]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[25]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[24]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[23]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[22]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[21]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[20]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[19]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[18]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[17]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[16]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[15]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[14]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[13]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[12]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[11]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[10]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[9]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[8]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[7]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[6]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[5]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[4]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[3]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[2]
+WARNING: [Synth 8-3331] design Data_mem has unconnected port Data_in[1]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 425.031 ; gain = 163.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 425.031 ; gain = 163.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 425.031 ; gain = 163.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "CS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "C" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'RW_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'PS_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'MA_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'MB_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'CS_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'MW_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'MD_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'BS_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'C_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/ALU.v:39]
+WARNING: [Synth 8-327] inferring latch for variable 'V_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/ALU.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'Bus_D_reg' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/MUX_D.v:11]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 500.438 ; gain = 238.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	   3 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	  26 Input      2 Bit        Muxes := 2     
+	  26 Input      1 Bit        Muxes := 7     
+	  11 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RISC_CPU_PIPELINE 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module Register_file 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+Module MUX_C 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+Module TOP_SECT 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module IF_SECT 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module Constant_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX_A 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX_B 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Instruction_Dec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	  26 Input      2 Bit        Muxes := 2     
+	  26 Input      1 Bit        Muxes := 7     
+Module Adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	  11 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module EX_SECT 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module MUX_D 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "REGISTER_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REGISTER_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DOF0/ID0/CS" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/RW_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/PS_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/MA_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/MB_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/CS_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/MW_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/MD_reg[1]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/MD_reg[0]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/BS_reg[1]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (DOF0/ID0/BS_reg[0]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (E0/A1/C_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (E0/A1/V_reg) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[31]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[30]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[29]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[28]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[27]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[26]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[25]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[24]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[23]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[22]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[21]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[20]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[19]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[18]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[17]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[16]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[15]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[14]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[13]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[12]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[11]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[10]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[9]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[8]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[7]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[6]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[5]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[4]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[3]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[2]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[1]) is unused and will be removed from module RISC_CPU_PIPELINE.
+WARNING: [Synth 8-3332] Sequential element (WB0/MD0/Bus_D_reg[0]) is unused and will be removed from module RISC_CPU_PIPELINE.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VxorN with 1st driver pin 'VxorN_reg/Q' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:78]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin VxorN with 2nd driver pin 'GND' [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:78]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net VxorN is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:78]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------+------------+---------------+----------------+
+|Module Name       | RTL Object | Depth x Width | Implemented As | 
++------------------+------------+---------------+----------------+
+|Instruction_Mem   | p_0_out    | 1024x32       | LUT            | 
+|RISC_CPU_PIPELINE | p_0_out    | 1024x32       | LUT            | 
++------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 6 critical warnings and 182 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 585.488 ; gain = 323.676
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 661.535 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+80 Infos, 160 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 661.535 ; gain = 407.617
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 661.535 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/PikesPlace/Documents/HW5/HW5.runs/synth_1/RISC_CPU_PIPELINE.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RISC_CPU_PIPELINE_utilization_synth.rpt -pb RISC_CPU_PIPELINE_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  1 12:06:29 2020...

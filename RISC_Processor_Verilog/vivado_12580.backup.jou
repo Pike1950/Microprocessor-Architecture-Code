@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr  7 16:47:16 2020
+# Process ID: 12580
+# Current directory: C:/Users/PikesPlace/Documents/HW5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19560 C:\Users\PikesPlace\Documents\HW5\HW5.xpr
+# Log file: C:/Users/PikesPlace/Documents/HW5/vivado.log
+# Journal file: C:/Users/PikesPlace/Documents/HW5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/PikesPlace/Documents/HW5/HW5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sim_1/new/Register_file_TB.v w ]
+add_files -fileset sim_1 C:/Users/PikesPlace/Documents/HW5/HW5.srcs/sim_1/new/Register_file_TB.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Register_file_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source Register_file_TB.tcl
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source Register_file_TB.tcl
+relaunch_sim
+run 1000 ns
+run 1000 ns
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RISC_CPU_PIPELINE_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+save_wave_config {C:/Users/PikesPlace/Documents/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim

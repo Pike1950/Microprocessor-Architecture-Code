@@ -1,0 +1,526 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Feb 19 07:37:31 2020
+# Process ID: 6968
+# Current directory: C:/Users/PikesPlace/Documents/BWard_HW3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13104 C:\Users\PikesPlace\Documents\BWard_HW3\BWard_HW3.xpr
+# Log file: C:/Users/PikesPlace/Documents/BWard_HW3/vivado.log
+# Journal file: C:/Users/PikesPlace/Documents/BWard_HW3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+run 1000 ns
+run 1000 ns
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+relaunch_sim
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+synth_design -rtl -name rtl_1
+close_design
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+run 1000 ns
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+relaunch_sim
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 119
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 121
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 128
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 129
+relaunch_sim
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+relaunch_sim
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+run 1000 ns
+relaunch_sim
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 130
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 120
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 122
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+remove_bps -file {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} -line 120
+remove_bps -file {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} -line 122
+remove_bps -file {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} -line 129
+add_bp {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} 129
+remove_bps -file {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} -line 129
+remove_bps -file {C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v} -line 130
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+run 1000 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+relaunch_sim
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run all
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+remove_forces { {/Vending_Machine_TB/uut/a1/a2/payment} }
+relaunch_sim
+relaunch_sim
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW3/Vending_Machine_TB_behav.wcfg
+source Vending_Machine_TB.tcl
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim

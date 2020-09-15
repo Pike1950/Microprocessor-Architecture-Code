@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sim_1/new/Vending_Machine_TB.v,1582129216,verilog,,,,Vending_Machine_TB,,,,,,,,
+C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Payment.v,1582130394,verilog,,C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Vending.v,,Payment,,,,,,,,
+C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Vending.v,1582129489,verilog,,C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Vending_Machine.v,,Vending,,,,,,,,
+C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sources_1/new/Vending_Machine.v,1582129448,verilog,,C:/Users/PikesPlace/Documents/BWard_HW3/BWard_HW3.srcs/sim_1/new/Vending_Machine_TB.v,,Vending_Machine,,,,,,,,

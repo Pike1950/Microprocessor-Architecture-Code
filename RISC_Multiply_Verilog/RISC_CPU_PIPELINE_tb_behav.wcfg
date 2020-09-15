@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISC_CPU_PIPELINE_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISC_CPU_PIPELINE_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8127366666fs"></ZoomStartTime>
+      <ZoomEndTime time="8160526667fs"></ZoomEndTime>
+      <Cursor1Time time="8155000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/PC_net" type="array">
+      <obj_property name="ElementShortName">PC_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_net[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/PC_1" type="array">
+      <obj_property name="ElementShortName">PC_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/PC_2" type="array">
+      <obj_property name="ElementShortName">PC_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/ID0/PS" type="logic">
+      <obj_property name="ElementShortName">PS</obj_property>
+      <obj_property name="ObjectShortName">PS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/MW" type="logic">
+      <obj_property name="ElementShortName">MW</obj_property>
+      <obj_property name="ObjectShortName">MW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/DOF0/CU0/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/BS" type="array">
+      <obj_property name="ElementShortName">BS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/T0/M0/MC" type="array">
+      <obj_property name="ElementShortName">MC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MC[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/FS" type="array">
+      <obj_property name="ElementShortName">FS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FS[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/SH" type="array">
+      <obj_property name="ElementShortName">SH[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SH[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/AAnet" type="array">
+      <obj_property name="ElementShortName">AAnet[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AAnet[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/BAnet" type="array">
+      <obj_property name="ElementShortName">BAnet[4:0]</obj_property>
+      <obj_property name="ObjectShortName">BAnet[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/A_DATA" type="array">
+      <obj_property name="ElementShortName">A_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/Bus_Anet" type="array">
+      <obj_property name="ElementShortName">Bus_Anet[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bus_Anet[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/B_DATA" type="array">
+      <obj_property name="ElementShortName">B_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/Bus_Bnet" type="array">
+      <obj_property name="ElementShortName">Bus_Bnet[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bus_Bnet[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/F" type="array">
+      <obj_property name="ElementShortName">F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/Bus_Dnet" type="array">
+      <obj_property name="ElementShortName">Bus_Dnet[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bus_Dnet[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/Fnet" type="array">
+      <obj_property name="ElementShortName">Fnet[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Fnet[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/VxorNnet" type="logic">
+      <obj_property name="ElementShortName">VxorNnet</obj_property>
+      <obj_property name="ObjectShortName">VxorNnet</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPU_PIPELINE_tb/uut/Znet" type="logic">
+      <obj_property name="ElementShortName">Znet</obj_property>
+      <obj_property name="ObjectShortName">Znet</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sim_1/new/Function_Unit_TB.v,1580893016,verilog,,,,Function_Unit_TB,,,,,,,,
+C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sources_1/new/ALU.v,1580893016,verilog,,C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sources_1/new/Function_Unit.v,,ALU,,,,,,,,
+C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sources_1/new/Function_Unit.v,1580893163,verilog,,C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sources_1/new/MUX.v,,Function_Unit,,,,,,,,
+C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sources_1/new/MUX.v,1580893016,verilog,,C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sources_1/new/Shifter.v,,MUX,,,,,,,,
+C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sources_1/new/Shifter.v,1580893016,verilog,,C:/Users/PikesPlace/Google Drive/TTU/Spring 2020/Microprocessor Arch/BradW_HW2_ECE_4375/BradW_HW2_ECE_4375.srcs/sim_1/new/Function_Unit_TB.v,,Shifter,,,,,,,,

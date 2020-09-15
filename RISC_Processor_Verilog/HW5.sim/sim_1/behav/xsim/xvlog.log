@@ -1,0 +1,46 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v:9]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v:9]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Constant_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Constant_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/DOF_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DOF_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/EX_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/IF_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Dec
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:11]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Mem
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:7]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:7]
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:8]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_C.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_C
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU_PIPELINE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/TOP_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/WB_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sim_1/new/RISC_CPU_PIPELINE_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU_PIPELINE_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,177 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Apr 13 15:47:47 2020
+# Process ID: 15428
+# Current directory: C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15728 C:\Users\PikesPlace\Documents\BWard_HW5_ECE_4375\HW5\HW5.xpr
+# Log file: C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/vivado.log
+# Journal file: C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/PikesPlace/Documents/HW5' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_D.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_B.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_C.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/DOF_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Constant_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/WB_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Register_file.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/IF_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_A.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/TOP_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Data_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/EX_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_D.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_B.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_C.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/DOF_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Constant_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/WB_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Adder.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Register_file.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/IF_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_A.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/TOP_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Data_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/EX_SECT.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_CPU_PIPELINE_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_CPU_PIPELINE_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v:9]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/ALU.v:9]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Constant_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Constant_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/DOF_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DOF_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/EX_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/IF_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Dec
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:11]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Dec.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Mem
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:7]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:7]
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:8]
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Instruction_Mem.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_C.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_C
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/MUX_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/RISC_CPU_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU_PIPELINE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/Register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/TOP_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sources_1/new/WB_SECT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_SECT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.srcs/sim_1/new/RISC_CPU_PIPELINE_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_CPU_PIPELINE_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 4b768b75a12a41ba91161ef903ec07eb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_CPU_PIPELINE_tb_behav xil_defaultlib.RISC_CPU_PIPELINE_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Register_file
+Compiling module xil_defaultlib.MUX_C
+Compiling module xil_defaultlib.TOP_SECT
+Compiling module xil_defaultlib.Instruction_Mem
+Compiling module xil_defaultlib.IF_SECT
+Compiling module xil_defaultlib.Constant_unit
+Compiling module xil_defaultlib.MUX_A
+Compiling module xil_defaultlib.MUX_B
+Compiling module xil_defaultlib.Instruction_Dec
+Compiling module xil_defaultlib.DOF_SECT
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Data_mem
+Compiling module xil_defaultlib.EX_SECT
+Compiling module xil_defaultlib.MUX_D
+Compiling module xil_defaultlib.WB_SECT
+Compiling module xil_defaultlib.RISC_CPU_PIPELINE
+Compiling module xil_defaultlib.RISC_CPU_PIPELINE_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_CPU_PIPELINE_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.sim/sim_1/behav/xsim/xsim.dir/RISC_CPU_PIPELINE_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 13 15:54:27 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/HW5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "RISC_CPU_PIPELINE_tb_behav -key {Behavioral:sim_1:Functional:RISC_CPU_PIPELINE_tb} -tclbatch {RISC_CPU_PIPELINE_tb.tcl} -view {C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg
+source RISC_CPU_PIPELINE_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'RISC_CPU_PIPELINE_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 785.926 ; gain = 12.703
+save_wave_config {C:/Users/PikesPlace/Documents/BWard_HW5_ECE_4375/HW5/RISC_CPU_PIPELINE_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 22:18:43 2020...
